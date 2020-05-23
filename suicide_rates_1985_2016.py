@@ -146,3 +146,7 @@ age_75_lp = sns.lineplot(x='year', y='suicides_no', data=age_75)
 ##Now make the legend
 leg = plt.legend(['5-14 years', '15-24 years', '25-34 years', '35-54 years', '55-74 years', '75+ years'])
 plt.show()
+
+
+# for more training go : https://www.kaggle.com/kageyama/exploratory-data-analysis-using-seaborn
+# a nice post using jupyter notebook
