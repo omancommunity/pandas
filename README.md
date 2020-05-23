@@ -1,7 +1,7 @@
 #  Pandas
 
 General training in pandas library.
-install pip freeze > requirements.txt
+
 
 to create requirements.txt for any purpose run :
 ```bash
