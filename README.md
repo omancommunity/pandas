@@ -2,11 +2,9 @@
 
 General training in pandas library.
 
+---
 
-to create requirements.txt for any purpose run :
-```bash
-pip freeze > requirements.txt
-```
+### sucicide data :
 
 to install ```requirements.txt``` run :
 ```bash
