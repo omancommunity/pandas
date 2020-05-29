@@ -95,9 +95,10 @@ oman_df = get_all_countries_from_index(dff,
 print(oman_df.sample(10))
 
 # save oman data to new csv file
+# making index=False is to except id from our file
 oman_df.to_csv('data/oman_suicide.csv', columns=COLUMNS_NEW_NAMES, index=False)
 
-# step Three
+# Step Three
 
 oman_df = pd.read_csv('data/oman_suicide.csv', usecols=COLUMNS_NEW_NAMES, index_col=0)
 
@@ -107,9 +108,13 @@ oman_df = pd.read_csv('data/oman_suicide.csv', usecols=COLUMNS_NEW_NAMES, index_
 print(oman_df)
 
 
-#step four
+
+
+
+
+# Step four
 """
-graphs
+Making Simple Graphs
 """
 
 ###Let's check for country
