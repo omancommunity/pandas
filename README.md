@@ -4,7 +4,7 @@ General training in pandas library.
 
 ---
 
-### sucicide data :
+### Suicide data :
 
 to install ```requirements.txt``` run :
 ```bash
